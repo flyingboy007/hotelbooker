@@ -1,0 +1,1 @@
+Sequel.connect "sqlite://db/#{ENV["APP_ENV"] || "developement"}.sqlite3"
