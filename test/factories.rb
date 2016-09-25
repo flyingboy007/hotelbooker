@@ -1,4 +1,6 @@
 require 'hotelbooker/models'
+require "helpers/sequel"
+
 
 FactoryGirl.define do
   factory :extra

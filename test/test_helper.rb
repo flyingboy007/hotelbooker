@@ -6,8 +6,9 @@ ENV["APP_ENV"] = "test"
 
 
 require "config"
-require 'minitest/reporters'
+require "factories"
 
+require 'minitest/reporters'
 DatabaseCleaner.strategy = :transaction
 
 

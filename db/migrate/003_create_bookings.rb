@@ -1,9 +1,12 @@
 Sequel.migration do
   change do
-    create_table :extras_per_booking do
+    create_table :bookings do
       primary_key :id
-      Integer :booking_id
-      Integer :extra_id
+      Integer :hotel_id
+      Integer :starts_at
+      String :name
+      String :credit_card_number
+      Time :credit_card_expires_at
     end
   end
 end

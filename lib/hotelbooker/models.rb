@@ -1,3 +1,3 @@
-require "hotelbooking/models/hotel"
-require "hotelbooking/models/booking"
-require "hotelbooking/models/extra "
+require "hotelbooker/models/hotel"
+require "hotelbooker/models/booking"
+require "hotelbooker/models/extra"

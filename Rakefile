@@ -8,6 +8,7 @@ namespace :test do
     t.libs << "test"
     t.libs << "lib"
     t.libs << "config"
+    t.warning = false
   end
 
   Rake::TestTask.new do |t|
@@ -16,6 +17,7 @@ namespace :test do
     t.libs << "test"
     t.libs << "lib"
     t.libs << "config"
+    t.warning = false
   end
 
 end
