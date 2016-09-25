@@ -14,3 +14,7 @@ DatabaseCleaner.strategy = :transaction
 
 reporter_options = { color: true }
 Minitest::Reporters.use! [Minitest::Reporters::DefaultReporter.new(reporter_options)]
+
+class Minitest::Test
+  include FactoryGirl::Syntax::Methods
+end

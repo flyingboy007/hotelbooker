@@ -9,4 +9,5 @@ group :test do
   gem "minitest", require: "minitest/autorun"
   gem "database_cleaner"
   gem 'minitest-reporters'
+  gem 'factory_girl'
 end
