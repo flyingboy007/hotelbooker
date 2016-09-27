@@ -8,3 +8,10 @@ Extras
 
 ### Association tables
 *Extras Per Booking
+
+
+# Search hotel
+# Choose hotel
+# select hotel's extras
+# User data
+# Book an hotel
